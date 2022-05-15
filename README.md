@@ -1,6 +1,6 @@
 # Envio de email pelo back-end
 
-## - Criar solução de webapi com aspnet core vazio
+   - Criar solução de webapi com aspnet core vazio
    - Instalar pacotes MimeKit e MailKit
    - Criar Controllers (controlador : MailController)
    - Models (classes : MailRequest e WelcomeRequest)
