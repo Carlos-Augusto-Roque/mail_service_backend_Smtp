@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet" />
+
+    <title>Email - Ergonomiks</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            display: flex;
+            min-height: 100vh;
+            width: 100%;
+        }
+
+        #main {
+            display: flex;
+            flex: 1;
+            font-family: "Poppins", sans-serif;
+        }
+
+        #container {
+            margin: auto;
+            color: #2f2e41;
+            background-color: #f8f9fd;
+            padding: 0 48px 48px;
+            border-radius: 4px;
+        }
+
+            #container #logo-container {
+                max-width: 250px;
+                margin: 0 auto;
+            }
+
+            #container #logo {
+                max-width: 100%;
+                margin: 48px auto;
+            }
+
+        #email-body-container {
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        #email-header {
+            text-align: center;
+        }
+
+            #email-header h1 {
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 18px;
+            }
+
+            #email-header h2 {
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+        #account-info {
+            text-align: center;
+            gap: 16px;
+            margin-top: 48px;
+        }
+
+            #account-info #account-info-title {
+                margin-bottom: 24px;
+            }
+
+        #btn-container {
+            text-align: center;
+            margin-top: 48px;
+        }
+
+        #btn-link {
+            height: 36px;
+            padding: 6px 24px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #3F77DF;
+            border-radius: 4px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        #email-footer-text {
+            text-align: center;
+            margin-top: 48px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="main">
+        <div id="container">
+            <div id="logo-container">
+                <img id="logo"
+                     src="https://github.com/Carlos-Augusto-Roque/ergonomiks_logo/blob/main/.github/logo.png?raw=true"
+                     alt="Logo da Ergonomiks" />
+            </div>
+            <div id="email-body-container">
+                <div id="email-header">
+                    <h1>Bem-vindo a Ergonomiks!</h1>
+                    <h2>Você foi cadastrado em nossa plataforma. 🥳🎉</h2>
+                </div>
+
+                <div id="account-info">
+                    <p id="account-info-title">Aqui estão seus dados de acesso:</p>
+                    <p>Email: [email] </p>
+                    <p>Senha: [password]</p>
+                </div>
+
+                <div id="btn-container">
+                    <a id="btn-link" href="https://ergonomiks.vercel.app/pt-BR/app/login" target="_blank">Acessar</a>
+                </div>
+                <p id="email-footer-text">Lembre-se de trocar sua senha.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
